@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/656e12d430.js" crossorigin="anonymous"></script>
+  <title>Portfolio Prototype</title>
+</head>
+<body>
+
+  <header>
+    <picture>
+      <source media="(min-width:700px)" srcset="images/Header-Logo.svg">
+      <img src="images/logo-background.svg" alt="Register Design Group">
+    </picture>
+
+    <!--Main Navigation Menu -- hidden on non-mobile screen sizing-->
+    <nav class="main-menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact Me</a>
+    </nav>
+
+    <!--Hamburger Navigation Menu -- hidden on non-mobile screen sizing-->
+    <div class="hamburger-menu">
+      <a href="index.html" class="active">Register Design Group</a>
+      <div id="hamburger-menu-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="index.html">Portfolio</a>
+        <a href="#">Contact Me</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <h2>&lt;projects/&gt;</h2>
+
+    <!--Cards containing portfolio images, description, and links/buttons-->
+    <div class="card-wrapper">
+      <article class="card">
+        <div class="card-media">
+          <img src="images/paramount_homes_591w.jpg" alt="Design for project company's home page">
+        </div>
+        <div class="card-content">
+          <p class="card-description">
+            Project website that I built to practice 
+            HTML/CSS. I will continue to update and build 
+            onto this as I learn. I hope to
+            add some back-end processing interactivity
+            but, it feels “right” for now.
+          </p>
+          <div class="card-buttons">
+            <button class="btn-live">Live Site</button>
+            <button class="btn-git">Github</button>
+          </div>
+        </div>
+        
+      </article>
+  
+      <article class="card">
+        <div class="card-media">
+          <img src="images/todo-image-test.jpg" alt="To-Do List main screen showing the user interface">
+        </div>
+        <div class="card-content">
+          <p class="card-description">
+            This is a to-do list application that saves your 
+            tasks locally so you can refresh or close the 
+            application without worrying about losing them.
+          </p>
+          <div class="card-buttons">
+            <button class="btn-live">Live Site</button>
+            <button class="btn-git">Github</button>
+          </div>
+        </div>
+
+      </article>
+  
+      <article class="card pleasure-island">
+        <div class="card-media">
+          <img src="images/pleasure_island_project_591w_2.jpg" alt="Re-design of Pleasure Island, NC home page">
+        </div>
+        <div class="card-content">
+          <p class="card-description">
+            This is a project that I worked on for a Mobile
+            Design course at Wake Tech. Our task was to 
+            use CSS Grid to re-design the website for 
+            Pleasure Island, North Carolina.
+          </p>
+          <div class="card-buttons">
+            <button class="btn-live">Live Site</button>
+            <button class="btn-git">Github</button>
+          </div>
+        </article>
+        </div>
+        
+    </div>
+
+    <h2>&lt;technology/&gt;</h2>
+
+    <div class="tech-icons">
+      <img class="tech-icon html" src="images/HTML5_Badge.svg" alt="HTML5">
+      <img class="tech-icon css" src="images/css-3.svg" alt="CSS3">
+      <img class="tech-icon javascript" src="images/javascript.svg" alt="Javascript">
+      <img class="tech-icon adobe" src="images/adobe-xd.svg" alt="Adobe XD">
+      <img class="tech-icon wordpress" src="images/wordpress.svg" alt="Wordpress">
+      <img class="tech-icon php" src="images/php.svg" alt="PHP">
+    </div>  
+  </main>
+
+  <footer>
+    <div class="footer-info">
+      <h3>Jake Register</h3>
+      <h3>Durham, NC</h3>
+      <h3>919-888-0566</h3>
+    </div>
+
+    <div class="logo">
+      <img src="images/Logo.svg" alt="Register Design Group">
+    </div>
+
+    <div class="footer-btns">
+      <button class="btn-contact">Contact Me</button>
+      <button class="btn-sub">Subscribe</button>
+    </div>
+
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="images/github.svg" alt="Github"></a>
+      <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+      <div class="social-attribute">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("hamburger-menu-links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</body>
+</html>

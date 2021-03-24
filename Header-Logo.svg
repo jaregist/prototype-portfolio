@@ -1,0 +1,11 @@
+<svg id="Header-Logo" xmlns="http://www.w3.org/2000/svg" width="1280" height="201" viewBox="0 0 1280 201">
+  <rect id="Rectangle_5" data-name="Rectangle 5" width="1280" height="201" fill="#216869"/>
+  <rect id="Rectangle_6" data-name="Rectangle 6" width="1280" height="78" transform="translate(0 123)" fill="#216869"/>
+  <text id="Register_Design_Group" data-name="Register Design Group" transform="translate(321 124)" fill="#fff" font-size="65" font-family="Merriweather"><tspan x="0" y="0">Register Design Group</tspan></text>
+  <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(134 26)" fill="none" stroke="#fff" stroke-width="10">
+    <circle cx="75" cy="75" r="75" stroke="none"/>
+    <circle cx="75" cy="75" r="70" fill="none"/>
+  </g>
+  <text id="J" transform="translate(168 126)" fill="#fff" font-size="100" font-family="Merriweather"><tspan x="0" y="0">J</tspan></text>
+  <text id="R" transform="translate(187 149)" fill="#fff" font-size="100" font-family="Merriweather"><tspan x="0" y="0">R</tspan></text>
+</svg>
